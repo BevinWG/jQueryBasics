@@ -24,10 +24,10 @@ function changeColor() {
     var r = $("#red").val();
     var g = $("#green").val();
     var b = $("#blue").val();
-  $("#newColor").css("background-color", "rgb(" + r +", + g +"," + b +")");  
+  $("#newColor").css("background-color", "rgb(" + r +", + g +"," + b +")"  
     
     
-}
+});
                        
 $("input[type=range]").change(changeColor);
 $("#addNewColor").click(function()){
